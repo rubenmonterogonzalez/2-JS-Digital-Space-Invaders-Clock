@@ -1,5 +1,5 @@
 const clock = function () {
-  let date = new Date("2020-04-13T03:00:00.000");
+  let date = new Date();
   let hrs = date.getHours();
   let mins = date.getMinutes();
   let secs = date.getSeconds();
